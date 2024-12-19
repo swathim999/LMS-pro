@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELearning Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <!-- Background Content -->
+    <div class="background">
+        
+    </div>
+
+    <!-- Sign Up Modal -->
+    <div class="modal" id="signUpModal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeSignUpModal">&times;</span>
+            <h2>Sign Up with ELearning</h2>
+            <div class="form-group">
+                <label for="fullName">Enter your Full Name</label>
+                <input type="text" id="fullName" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="email">Enter your Email</label>
+                <input type="email" id="email" placeholder="signupmail@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="password">Create a Password</label>
+                <input type="password" id="password" placeholder="password!@%">
+                <span class="toggle-password" id="togglePassword">👁️</span>
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm password!@%">
+                <span class="toggle-password" id="toggleConfirmPassword">👁️</span>
+            </div>
+            <button class="submit-btn">Sign Up</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
