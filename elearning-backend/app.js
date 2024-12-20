@@ -13,10 +13,10 @@ app.use(bodyParser.json());
 
 // MySQL Database Connection
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "1234",
-    database: "elearning",
+    host: "mysql.hostinger.com",
+    user: "u502182299_lms",
+    password: "Lms@2025",
+    database: "u502182299_lmsdata",
 });
 
 db.connect((err) => {
